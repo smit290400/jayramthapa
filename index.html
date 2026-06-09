@@ -3,572 +3,362 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Jayaram Thapa – Public Leader &amp; Legal Advisor</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=Jost:wght@300;400;500;600&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet" />
-
-  <!-- AOS – Animate On Scroll -->
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-  <!-- Portfolio stylesheet -->
+  <title>Jayaram Thapa | Advocate & Public Leader</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;600&display=swap" rel="stylesheet" />
 </head>
 <body>
 
-<!-- ════════════════════════════════════════════════
-     NAVIGATION
-════════════════════════════════════════════════ -->
-<nav id="mainNav" role="navigation" aria-label="Main Navigation">
-  <a href="#hero" class="nav-logo">Jayaram Thapa</a>
-
-  <ul class="nav-links" role="list">
-    <li><a href="#about">About</a></li>
-    <li><a href="#experience">Experience</a></li>
-    <li><a href="#skills">Skills</a></li>
-    <li><a href="#gallery">Gallery</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-
-  <button class="hamburger" id="hamburgerBtn" aria-label="Toggle menu" aria-expanded="false">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</nav>
-
-<nav class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Mobile Navigation">
-  <a href="#about">About</a>
-  <a href="#experience">Experience</a>
-  <a href="#skills">Skills</a>
-  <a href="#gallery">Gallery</a>
-  <a href="#contact">Contact</a>
-</nav>
-
-
-<!-- ════════════════════════════════════════════════
-     HERO
-════════════════════════════════════════════════ -->
-<section id="hero" aria-label="Hero Banner">
-  <div class="hero-bg-grid"     aria-hidden="true"></div>
-  <div class="hero-bg-radial"   aria-hidden="true"></div>
-  <div class="hero-accent-line" aria-hidden="true"></div>
-
-  <div class="hero-inner">
-    <p class="hero-eyebrow" data-aos="fade-right" data-aos-duration="800">
-      Public Leader &amp; Legal Counsel
-    </p>
-
-    <h1 class="hero-name" data-aos="fade-right" data-aos-duration="900" data-aos-delay="100">
-      Jayaram<br /><em>Thapa</em>
-    </h1>
-
-    <p class="hero-tagline" data-aos="fade-right" data-aos-duration="800" data-aos-delay="200">
-      Bridging the architecture of law with the imperatives of governance —
-      shaping equitable policy across Bagmati Province and beyond.
-    </p>
-
-    <div class="hero-divider" data-aos="fade-right" data-aos-duration="800" data-aos-delay="300">
-      <span class="hero-badge"><span class="hero-badge-dot"></span> Bagmati Province Assembly</span>
-      <span class="hero-badge"><span class="hero-badge-dot"></span> LL.M. · Ph.D. Scholar</span>
-      <span class="hero-badge"><span class="hero-badge-dot"></span> Nepal</span>
+  <!-- ── NAV ── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">Jayaram Thapa</span>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#qualifications">Qualifications</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#political">Political</a></li>
+        <li><a href="#sectors">Sectors</a></li>
+        <li><a href="#international">International</a></li>
+        <li><a href="#training">Training</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </div>
-
-    <a href="#contact" class="hero-cta" data-aos="fade-right" data-aos-duration="800" data-aos-delay="400">
-      Request Consultation <span class="hero-cta-arrow">→</span>
-    </a>
-  </div>
-
-  <aside class="hero-stats" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="500" aria-label="Career highlights">
-    <div class="stat-item">
-      <div class="stat-number">3+</div>
-      <div class="stat-label">Active Roles</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">2020</div>
-      <div class="stat-label">Est. Leadership</div>
-    </div>
-    <div class="stat-item">
-      <div class="stat-number">Ph.D</div>
-      <div class="stat-label">In Progress</div>
-    </div>
-  </aside>
-
-  <div class="hero-portrait" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="300" aria-label="Portrait of Jayaram Thapa">
-    <img src="image/uncle_2-removebg-preview.png" alt="Professional portrait of Jayaram Thapa" />
-    <div class="hero-portrait-label">Professional Profile</div>
-  </div>
-
-  <div class="hero-scroll" aria-hidden="true">
-    <div class="hero-scroll-line"></div>
-    Scroll
-  </div>
-</section>
-
-
-<!-- ════════════════════════════════════════════════
-     ABOUT
-════════════════════════════════════════════════ -->
-<section id="about" aria-labelledby="about-title">
-  <div class="section-header" data-aos="fade-up">
-    <p class="section-label">Profile</p>
-    <h2 class="section-title" id="about-title">About Jayaram Thapa</h2>
-    <div class="section-rule"></div>
-  </div>
-
-  <div class="about-grid">
-
-    <!-- Portrait -->
-    <div class="about-portrait-wrap" data-aos="fade-right" data-aos-duration="1000">
-      <div class="about-corner-accent-h" aria-hidden="true"></div>
-
-      <div class="about-portrait-frame" role="img" aria-label="Portrait of Jayaram Thapa">
-        <img class="about-portrait-img" src="image/uncle.jpg" alt="Portrait of Jayaram Thapa" />
-        <div class="portrait-initials" aria-hidden="true">
-          <div class="portrait-monogram">JT</div>
-        </div>
-        <div class="portrait-overlay">
-          <div class="portrait-name-card">
-            <h3>Jayaram Thapa</h3>
-            <p>Public Leader &amp; Legal Advisor</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="about-corner-accent" aria-hidden="true"></div>
-    </div>
-
-    <!-- Content -->
-    <div class="about-content" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="150">
-
-      <p class="about-intro">
-        A distinguished public servant and legal scholar committed to advancing
-        just governance, institutional excellence, and the rule of law across Nepal.
-      </p>
-
-      <p class="about-body">
-        Jayaram Thapa is a multi-dimensional leader whose career spans the
-        intersecting worlds of law, public administration, and executive education.
-        As a sitting Member of Bagmati Province under the Ministry of Labor,
-        Employment, and Transport, he brings rigorous legal expertise to the
-        formulation of policies that directly shape provincial infrastructure,
-        labor welfare, and economic development.
-      </p>
-
-      <p class="about-body">
-        Concurrently, he leads Liverpool SS/College &amp; University Affiliate Networks
-        as Managing Director &amp; CEO, driving long-term academic vision and institutional
-        expansion. His advisory mandate to Budhanilkantha Municipalities reflects a
-        deep commitment to localized governance and community empowerment. With an
-        LL.M. in International Law and Human Rights and an active Ph.D. in Diplomatic
-        Law, Mr. Thapa anchors every leadership decision in scholarly rigor and
-        international best practice.
-      </p>
-
-      <!-- Credential Pills -->
-      <div class="credentials-grid" data-aos="fade-up" data-aos-delay="200">
-        <div class="credential-pill">
-          <div class="credential-icon" aria-hidden="true">🎓</div>
-          <div class="credential-text">
-            <strong>Ph.D. Scholar</strong>
-            <span>Diplomatic Law — In Progress</span>
-          </div>
-        </div>
-        <div class="credential-pill">
-          <div class="credential-icon" aria-hidden="true">⚖️</div>
-          <div class="credential-text">
-            <strong>LL.M.</strong>
-            <span>International Law &amp; Human Rights</span>
-          </div>
-        </div>
-        <div class="credential-pill">
-          <div class="credential-icon" aria-hidden="true">🏛️</div>
-          <div class="credential-text">
-            <strong>Province Member</strong>
-            <span>Bagmati Province Assembly</span>
-          </div>
-        </div>
-        <div class="credential-pill">
-          <div class="credential-icon" aria-hidden="true">🌐</div>
-          <div class="credential-text">
-            <strong>Legal Advisor</strong>
-            <span>Human Rights &amp; Constitutional Law</span>
-          </div>
-        </div>
-      </div>
-
-      <!-- Domain Tags -->
-      <div class="domain-tags" data-aos="fade-up" data-aos-delay="300">
-        <span class="domain-tag">Legislative Frameworks</span>
-        <span class="domain-tag">Human Rights</span>
-        <span class="domain-tag">Supreme Court Litigation</span>
-        <span class="domain-tag">State Negotiations</span>
-        <span class="domain-tag">Diplomatic Law</span>
-        <span class="domain-tag">Municipal Governance</span>
-      </div>
-
-    </div><!-- /about-content -->
-  </div><!-- /about-grid -->
-</section>
-
-
-<!-- ════════════════════════════════════════════════
-     EXPERIENCE
-════════════════════════════════════════════════ -->
-<section id="experience" aria-labelledby="experience-title">
-  <div class="section-header" data-aos="fade-up">
-    <p class="section-label">Career Milestones</p>
-    <h2 class="section-title light" id="experience-title">Professional Experience</h2>
-    <div class="section-rule"></div>
-  </div>
-
-  <div class="timeline" role="list">
-
-    <!-- Role 1 -->
-    <article class="timeline-item" data-aos="fade-up" data-aos-delay="100" role="listitem">
-      <div class="timeline-node" aria-hidden="true"></div>
-      <div class="timeline-card">
-        <div class="timeline-period">
-          24 January 2023 – Present
-          <span class="current-badge">● Current</span>
-        </div>
-        <h3 class="timeline-role">Member of Bagmati Province</h3>
-        <p class="timeline-org">Ministry of Labor, Employment &amp; Transport — Hetauda, Nepal</p>
-        <ul class="timeline-duties">
-          <li>Advising on provincial transport infrastructure networks and overseeing modernization of regional transport regulations to align with national development targets.</li>
-          <li>Contributing to economic policy formulation for provincial labor welfare, ensuring compliance with international labor standards and domestic legislative mandates.</li>
-          <li>Representing constituents in cross-departmental state negotiations and facilitating inter-ministerial coordination on public welfare initiatives.</li>
-        </ul>
-      </div>
-    </article>
-
-    <!-- Role 2 -->
-    <article class="timeline-item" data-aos="fade-up" data-aos-delay="200" role="listitem">
-      <div class="timeline-node" aria-hidden="true"></div>
-      <div class="timeline-card">
-        <div class="timeline-period">
-          29 September 2020 – Present
-          <span class="current-badge">● Current</span>
-        </div>
-        <h3 class="timeline-role">Managing Director &amp; CEO</h3>
-        <p class="timeline-org">Liverpool SS/College &amp; University Affiliate Networks — Nepal</p>
-        <ul class="timeline-duties">
-          <li>Directing long-term organizational strategies and institutional governance structures across the Liverpool SS/College affiliate network.</li>
-          <li>Managing high-level institutional administration including faculty leadership, academic quality assurance, and strategic partnership development.</li>
-          <li>Leading capacity-building protocols and overseeing academic expansion initiatives aligned with regional higher-education growth objectives.</li>
-        </ul>
-      </div>
-    </article>
-
-    <!-- Role 3 -->
-    <article class="timeline-item" data-aos="fade-up" data-aos-delay="300" role="listitem">
-      <div class="timeline-node" aria-hidden="true"></div>
-      <div class="timeline-card">
-        <div class="timeline-period">
-          6 July 2021 – Present
-          <span class="current-badge">● Current</span>
-        </div>
-        <h3 class="timeline-role">Advisor</h3>
-        <p class="timeline-org">Budhanilkantha Municipalities — Kathmandu Valley, Nepal</p>
-        <ul class="timeline-duties">
-          <li>Delivering strategic insights and policy advisory assistance to municipal leadership, covering urban planning, local governance reform, and community service delivery.</li>
-          <li>Overseeing localized governance frameworks and providing counsel on regulatory compliance with provincial and federal legislative mandates.</li>
-          <li>Spearheading community development initiatives and coordinating public consultations to ensure participatory and inclusive governance outcomes.</li>
-        </ul>
-      </div>
-    </article>
-
-  </div><!-- /timeline -->
-</section>
-
-
-<!-- ════════════════════════════════════════════════
-     SKILLS
-════════════════════════════════════════════════ -->
-<section id="skills" aria-labelledby="skills-title">
-  <div class="section-header" data-aos="fade-up">
-    <p class="section-label">Competencies</p>
-    <h2 class="section-title" id="skills-title">Core Professional Skills</h2>
-    <div class="section-rule"></div>
-  </div>
-
-  <div class="skills-grid">
-
-    <article class="skill-card" data-aos="fade-up" data-aos-delay="100">
-      <div class="skill-icon-wrap" aria-hidden="true">⚖️</div>
-      <h3 class="skill-title">Legal Consulting</h3>
-      <p class="skill-desc">
-        Advanced command of international treaties, human rights litigation protocols,
-        and the constitutional frameworks governing both corporate entities and state
-        institutions. Expertise in supreme court advocacy and cross-border legal mediation.
-      </p>
-      <div class="skill-tags">
-        <span class="skill-tag">Int'l Law</span>
-        <span class="skill-tag">Human Rights</span>
-        <span class="skill-tag">Constitutional</span>
-      </div>
-    </article>
-
-    <article class="skill-card" data-aos="fade-up" data-aos-delay="150">
-      <div class="skill-icon-wrap" aria-hidden="true">🏗️</div>
-      <h3 class="skill-title">Public Administration</h3>
-      <p class="skill-desc">
-        Designing and implementing state-level labor policies, transport planning
-        systems, and city-level municipal regulations. Proven record of aligning
-        administrative structures with evolving legislative mandates and community needs.
-      </p>
-      <div class="skill-tags">
-        <span class="skill-tag">Policy Design</span>
-        <span class="skill-tag">Transport Planning</span>
-        <span class="skill-tag">Regulation</span>
-      </div>
-    </article>
-
-    <article class="skill-card" data-aos="fade-up" data-aos-delay="200">
-      <div class="skill-icon-wrap" aria-hidden="true">🎯</div>
-      <h3 class="skill-title">Executive Governance</h3>
-      <p class="skill-desc">
-        Decades of collective leadership across major educational boards, corporate
-        networks, and public service offices. Expertise in organizational transformation,
-        stakeholder management, and long-horizon institutional strategy.
-      </p>
-      <div class="skill-tags">
-        <span class="skill-tag">Board Leadership</span>
-        <span class="skill-tag">Strategy</span>
-        <span class="skill-tag">Stakeholder Mgmt</span>
-      </div>
-    </article>
-
-    <article class="skill-card" data-aos="fade-up" data-aos-delay="250">
-      <div class="skill-icon-wrap" aria-hidden="true">🤝</div>
-      <h3 class="skill-title">Diplomatic Mediation</h3>
-      <p class="skill-desc">
-        Legislative planning, high-stakes political negotiation, and strategic
-        alignment across multiple government departments. Skilled in facilitating
-        consensus in complex, multi-stakeholder environments at provincial and national levels.
-      </p>
-      <div class="skill-tags">
-        <span class="skill-tag">Negotiation</span>
-        <span class="skill-tag">Legislative Planning</span>
-        <span class="skill-tag">Mediation</span>
-      </div>
-    </article>
-
-  </div><!-- /skills-grid -->
-</section>
-
-
-<!-- ════════════════════════════════════════════════
-     GALLERY
-════════════════════════════════════════════════ -->
-<section id="gallery" aria-labelledby="gallery-title">
-  <div class="section-header" data-aos="fade-up">
-    <p class="section-label">Visual Archive</p>
-    <h2 class="section-title light" id="gallery-title">Governance &amp; Institutional Work</h2>
-    <div class="section-rule"></div>
-  </div>
-
-  <div class="gallery-grid" role="list">
-
-    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="50" role="listitem" tabindex="0" aria-label="Provincial Assembly proceedings">
-      <div class="gallery-bg gallery-bg-1">
-        <div class="gallery-watermark" aria-hidden="true">⚖</div>
-      </div>
-      <div class="gallery-corner" aria-hidden="true"></div>
-      <figcaption class="gallery-overlay">
-        <div class="gallery-info">
-          <h4>Provincial Assembly Proceedings</h4>
-          <p>Bagmati Province · Legislative Chamber</p>
-        </div>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="100" role="listitem" tabindex="0" aria-label="Municipal advisory session">
-      <div class="gallery-bg gallery-bg-2">
-        <div class="gallery-watermark" aria-hidden="true">🏛</div>
-      </div>
-      <div class="gallery-corner" aria-hidden="true"></div>
-      <figcaption class="gallery-overlay">
-        <div class="gallery-info">
-          <h4>Municipal Advisory Session</h4>
-          <p>Budhanilkantha · Policy Consultation</p>
-        </div>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="150" role="listitem" tabindex="0" aria-label="Academic leadership conference">
-      <div class="gallery-bg gallery-bg-3">
-        <div class="gallery-watermark" aria-hidden="true">🎓</div>
-      </div>
-      <div class="gallery-corner" aria-hidden="true"></div>
-      <figcaption class="gallery-overlay">
-        <div class="gallery-info">
-          <h4>Academic Leadership Conference</h4>
-          <p>Liverpool SS/College · Institutional Review</p>
-        </div>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="200" role="listitem" tabindex="0" aria-label="Transport policy briefing">
-      <div class="gallery-bg gallery-bg-4">
-        <div class="gallery-watermark" aria-hidden="true">🚌</div>
-      </div>
-      <div class="gallery-corner" aria-hidden="true"></div>
-      <figcaption class="gallery-overlay">
-        <div class="gallery-info">
-          <h4>Transport Policy Briefing</h4>
-          <p>Ministry of Transport · Infrastructure Review</p>
-        </div>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="250" role="listitem" tabindex="0" aria-label="Human rights advocacy forum">
-      <div class="gallery-bg gallery-bg-5">
-        <div class="gallery-watermark" aria-hidden="true">🌐</div>
-      </div>
-      <div class="gallery-corner" aria-hidden="true"></div>
-      <figcaption class="gallery-overlay">
-        <div class="gallery-info">
-          <h4>Human Rights Advocacy Forum</h4>
-          <p>Kathmandu · International Law Panel</p>
-        </div>
-      </figcaption>
-    </figure>
-
-    <figure class="gallery-item" data-aos="fade-up" data-aos-delay="300" role="listitem" tabindex="0" aria-label="Community outreach program">
-      <div class="gallery-bg gallery-bg-6">
-        <div class="gallery-watermark" aria-hidden="true">🤝</div>
-      </div>
-      <div class="gallery-corner" aria-hidden="true"></div>
-      <figcaption class="gallery-overlay">
-        <div class="gallery-info">
-          <h4>Community Outreach Program</h4>
-          <p>Hetauda · Labor Welfare Initiative</p>
-        </div>
-      </figcaption>
-    </figure>
-
-  </div><!-- /gallery-grid -->
-</section>
-
-
-<!-- ════════════════════════════════════════════════
-     CONTACT
-════════════════════════════════════════════════ -->
-<section id="contact" aria-labelledby="contact-title">
-  <div class="section-header" data-aos="fade-up">
-    <p class="section-label">Connect</p>
-    <h2 class="section-title light" id="contact-title">Contact &amp; Office Locations</h2>
-    <div class="section-rule"></div>
-  </div>
-
-  <div class="contact-layout">
-
-    <!-- Channels -->
-    <div data-aos="fade-right" data-aos-duration="900">
-      <p class="contact-intro">
-        For legislative inquiries, legal advisory engagements, academic partnerships,
-        or municipal consultations — direct communication channels are available through
-        the following verified platforms.
-      </p>
-
-      <div class="contact-channels" role="list">
-
-        <a href="tel:+977-XXXXXXXXXX" class="contact-channel" role="listitem" aria-label="Call Jayaram Thapa">
-          <div class="channel-icon" aria-hidden="true">📞</div>
-          <div class="channel-details">
-            <div class="channel-label">Direct Call</div>
-            <div class="channel-value">Provincial Office Line</div>
-          </div>
-          <span class="channel-arrow" aria-hidden="true">→</span>
-        </a>
-
-        <a href="mailto:jayaram.thapa@bagmatiprovince.gov.np" class="contact-channel" role="listitem" aria-label="Email Jayaram Thapa">
-          <div class="channel-icon" aria-hidden="true">✉️</div>
-          <div class="channel-details">
-            <div class="channel-label">Professional Email</div>
-            <div class="channel-value">jayaram.thapa@bagmatiprovince.gov.np</div>
-          </div>
-          <span class="channel-arrow" aria-hidden="true">→</span>
-        </a>
-
-        <a href="https://wa.me/977XXXXXXXXXX" target="_blank" rel="noopener noreferrer" class="contact-channel" role="listitem" aria-label="WhatsApp Jayaram Thapa">
-          <div class="channel-icon" aria-hidden="true">💬</div>
-          <div class="channel-details">
-            <div class="channel-label">WhatsApp Verification</div>
-            <div class="channel-value">Instant Secure Messaging</div>
-          </div>
-          <span class="channel-arrow" aria-hidden="true">→</span>
-        </a>
-
-      </div>
-    </div>
-
-    <!-- Office Cards -->
-    <div class="office-cards" data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
-
-      <address class="office-card" style="font-style: normal;">
-        <div class="office-badge">
-          <span class="office-badge-dot" aria-hidden="true"></span>
-          Primary Administrative Seat
-        </div>
-        <h3 class="office-name">Bagmati Province Ministerial Offices</h3>
-        <p class="office-addr">
-          Ministry of Labor, Employment &amp; Transport<br />
-          Hetauda, Bagmati Province, Nepal
-        </p>
-      </address>
-
-      <address class="office-card" style="font-style: normal;">
-        <div class="office-badge">
-          <span class="office-badge-dot" aria-hidden="true"></span>
-          Regional Affairs Desk
-        </div>
-        <h3 class="office-name">Kathmandu &amp; Budhanilkantha Sector</h3>
-        <p class="office-addr">
-          Budhanilkantha Municipalities Advisory Office<br />
-          Kathmandu Valley Operational Hub, Nepal
-        </p>
-      </address>
-
-      <address class="office-card" style="font-style: normal;">
-        <div class="office-badge">
-          <span class="office-badge-dot" aria-hidden="true"></span>
-          Academic Administration
-        </div>
-        <h3 class="office-name">Liverpool SS/College Network</h3>
-        <p class="office-addr">
-          Managing Director &amp; CEO Office<br />
-          Kathmandu, Nepal
-        </p>
-      </address>
-
-    </div>
-  </div><!-- /contact-layout -->
-</section>
-
-
-<!-- ════════════════════════════════════════════════
-     FOOTER
-════════════════════════════════════════════════ -->
-<footer role="contentinfo">
-  <div class="footer-brand">Jayaram Thapa</div>
-  <p class="footer-copy">© 2024 Jayaram Thapa. All rights reserved.</p>
-  <nav class="footer-links" aria-label="Footer navigation">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#contact">Contact</a>
   </nav>
-</footer>
 
+  <!-- ── HERO ── -->
+  <header class="hero" id="home">
+    <div class="hero-bg-text">JUSTICE</div>
+    <div class="hero-content" data-animate>
 
-<!-- AOS library -->
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<!-- Portfolio scripts -->
-<script src="main.js"></script>
+      <div class="hero-text">
+        <p class="hero-eyebrow">Advocate &bull; Legal Scholar &bull; Public Servant</p>
+        <h1 class="hero-name">Jayaram<br /><span>Thapa</span></h1>
+        <p class="hero-tagline">20 years of legal practice. A lifetime of public commitment.</p>
+        <div class="hero-badges">
+          <span class="badge">PhD Scholar — International Diplomatic Law</span>
+          <span class="badge">DCM, Kathmandu</span>
+          <span class="badge">CPN-UML</span>
+        </div>
+        <div class="hero-highlights">
+          <div class="highlight">
+            <strong>20+</strong>
+            <span>Years of practice</span>
+          </div>
+          <div class="highlight">
+            <strong>18</strong>
+            <span>Global forums</span>
+          </div>
+          <div class="highlight">
+            <strong>5+</strong>
+            <span>Leadership roles</span>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a href="#about" class="cta-btn">Explore Profile</a>
+          <a href="#contact" class="cta-secondary">Contact Team</a>
+        </div>
+      </div>
 
+      <div class="photo-wrapper" data-animate>
+        <img src="uncle 4.jpg" alt="Jayaram Thapa" class="hero-photo" />
+      </div>
+    </div>
+    <div class="hero-scroll-hint">&#8595; Scroll</div>
+  </header>
+
+  <!-- ── PHOTOS ── -->
+  <section class="section alt-bg" id="photos">
+    <div class="container">
+      <div class="section-label">Photo Gallery</div>
+      <h2 class="section-title">Memories &amp; Moments</h2>
+      <div class="gallery-grid">
+        <div class="gallery-card" data-animate>
+          <img src="uncle 4.jpg" alt="Jayaram Thapa portrait" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 2.jpg" alt="Jayaram Thapa community outreach" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 4 copy.jpg" alt="Gathering with colleagues" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 5.jpg" alt="Jayaram Thapa at conference" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 6.jpg" alt="Panel discussion" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 7.jpg" alt="Group photo" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 8.jpg" alt="Event inauguration" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 9.jpg" alt="Seminar appearance" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 10.jpg" alt="Awards ceremony" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="uncle 11.jpg" alt="Workshop session" class="gallery-photo" />
+        </div>
+        <div class="gallery-card" data-animate>
+          <img src="image/uncle_2-removebg-preview.png" alt="Clean profile image" class="gallery-photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-label">About</div>
+      <h2 class="section-title">A Committed Servant of Law &amp; Democracy</h2>
+      <div class="about-grid">
+        <div class="about-card">
+          <div class="about-icon">&#9878;</div>
+          <h3>Personal Details</h3>
+          <ul class="detail-list">
+            <li><span>Date of Birth</span><span>November 2, 1977</span></li>
+            <li><span>Address</span><span>Budhanilkantha Municipality-2, Kathmandu</span></li>
+            <li><span>Languages</span><span>English, Hindi, Nepali</span></li>
+            <li><span>Email</span><span><a href="mailto:advthapa@yahoo.com">advthapa@yahoo.com</a></span></li>
+            <li><span>Phone</span><span>+977-1-4373650 / 9851045590</span></li>
+          </ul>
+        </div>
+        <div class="about-card highlight-card">
+          <div class="about-icon">&#9878;</div>
+          <h3>Professional Summary</h3>
+          <p>A seasoned advocate with over <strong>20 years of legal practice</strong>, specialising in International Law and Human Rights. Currently pursuing a <strong>PhD in International Diplomatic Law</strong> and serving as <strong>Deputy Chairman of Kathmandu Metropolitan City</strong>.</p>
+          <p>A founding member of multiple civic, legal, and business institutions across Nepal, with active participation in global forums spanning Brussels, Tokyo, New York, and beyond.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── QUALIFICATIONS ── -->
+  <section class="section alt-bg" id="qualifications">
+    <div class="container">
+      <div class="section-label">Education &amp; Profession</div>
+      <h2 class="section-title">Qualifications</h2>
+      <div class="timeline">
+        <div class="timeline-item" data-animate>
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-tag">In Progress</span>
+            <h4>PhD Scholar — International Diplomatic Law</h4>
+            <p>Tribhuvan University, Nepal</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-animate>
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-tag">Completed</span>
+            <h4>Master of Laws (LLM)</h4>
+            <p>International Law and Human Rights — Tribhuvan University</p>
+          </div>
+        </div>
+        <div class="timeline-item" data-animate>
+          <div class="tl-dot"></div>
+          <div class="tl-body">
+            <span class="tl-tag">20+ Years</span>
+            <h4>Advocate — Nepal Bar Council</h4>
+            <p>Active practice in litigation, client counselling, and legal research across civil, constitutional, and international law domains.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── POLITICAL ── -->
+  <section class="section" id="political">
+    <div class="container">
+      <div class="section-label">Political Career</div>
+      <h2 class="section-title">28 Years of Political Dedication</h2>
+      <div class="cards-grid">
+        <div class="info-card" data-animate>
+          <div class="card-year">2048 BS</div>
+          <p>Began student movement involvement from school level; joined ANNFSU.</p>
+        </div>
+        <div class="info-card" data-animate>
+          <div class="card-year">2048–2058 BS</div>
+          <p>Held various posts in ANNFSU (All Nepal National Free Students Union).</p>
+        </div>
+        <div class="info-card" data-animate>
+          <div class="card-year">2052 BS</div>
+          <p>Became a formal member of CPN-UML (Communist Party of Nepal – Unified Marxist–Leninist).</p>
+        </div>
+        <div class="info-card" data-animate>
+          <div class="card-year">Present</div>
+          <p>In-charge of Budhigaun Sector 4, Kshetra — CPN-UML. <br/>Chairperson, PPLA Punarabedan Bishesh Jilla Samiti, Patan.</p>
+        </div>
+        <div class="info-card info-card--wide" data-animate>
+          <div class="card-year">Current Role</div>
+          <p><strong>Deputy Chairman, Kathmandu Metropolitan City (DCM)</strong> — overseeing municipal governance, urban development, and civic administration.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── OTHER SECTORS ── -->
+  <section class="section alt-bg" id="sectors">
+    <div class="container">
+      <div class="section-label">Sector Involvements</div>
+      <h2 class="section-title">Leadership Across Institutions</h2>
+      <div class="sector-tabs">
+        <button class="tab-btn active" data-tab="government">Government</button>
+        <button class="tab-btn" data-tab="education">Education</button>
+        <button class="tab-btn" data-tab="business">Business &amp; Finance</button>
+        <button class="tab-btn" data-tab="civic">Civic &amp; Legal</button>
+      </div>
+      <div class="tab-content active" id="tab-government">
+        <ul class="sector-list">
+          <li>Former Chairman — Budhanilkantha Area Development Committee, Ministry of Culture, Tourism &amp; Civil Aviation, Government of Nepal</li>
+        </ul>
+      </div>
+      <div class="tab-content" id="tab-education">
+        <ul class="sector-list">
+          <li>Chairperson — Ganesh School, Kathmandu</li>
+          <li>Managing Director — Liverpool International College, New Baneswar, Kathmandu</li>
+        </ul>
+      </div>
+      <div class="tab-content" id="tab-business">
+        <ul class="sector-list">
+          <li>Chairperson — Jeshmine Investment Company, Putalisadak, Kathmandu</li>
+          <li>Board Member &amp; Legal Consultant — Dream Land Housing Company Ltd., Chabahil, Kathmandu</li>
+          <li>Promoter — Nature Care Hospital, New Baneswar, Kathmandu</li>
+          <li>Promoter — Mega Bank Nepal Limited, Jamal, Kathmandu</li>
+          <li>Promoter — Grand Investment Company, Maharajgunj, Kathmandu</li>
+          <li>Promoter — North Point Multi-Purpose Cooperative, Hattigaunda, Kathmandu</li>
+          <li>Promoter — Sahakali Multi-Purpose Cooperative, Kandaghari, Kathmandu</li>
+          <li>Promoter — Sahid Memorial Multi-Purpose Cooperative, Kalanki, Kathmandu</li>
+          <li>Promoter — Sahid Memorial Hospital, Kalanki, Kathmandu</li>
+        </ul>
+      </div>
+      <div class="tab-content" id="tab-civic">
+        <ul class="sector-list">
+          <li>Founder Member — Centre for Legal Consultancy and Research, Putalisadak, Kathmandu</li>
+          <li>Secretary — Civic Concern Nepal, BattisPutali, Kathmandu</li>
+          <li>General Secretary — Nepal Tourism Lawyers Association</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── INTERNATIONAL ── -->
+  <section class="section" id="international">
+    <div class="container">
+      <div class="section-label">Global Engagement</div>
+      <h2 class="section-title">International Involvements &amp; Conferences</h2>
+      <div class="globe-grid">
+        <div class="globe-card" data-animate>
+          <div class="globe-icon">&#127758;</div>
+          <h4>World Peace Council</h4>
+          <p>Active member representing Nepal's legal community in global peace initiatives.</p>
+        </div>
+        <div class="globe-card" data-animate>
+          <div class="globe-icon">&#9878;</div>
+          <h4>International Association of Democratic Lawyers (IADL)</h4>
+          <p>Participated in the 18th IADL Congress, Brussels, 2014. Leading participant, International Progressive Lawyers Association — Brussels, France, Netherlands &amp; Germany.</p>
+        </div>
+        <div class="globe-card" data-animate>
+          <div class="globe-icon">&#127774;</div>
+          <h4>International Tourism Lawyers Association</h4>
+          <p>General Secretary, Nepal Tourism Lawyers; active in international tourism law forums.</p>
+        </div>
+        <div class="globe-card" data-animate>
+          <div class="globe-icon">&#9729;</div>
+          <h4>Key International Events</h4>
+          <ul class="globe-list">
+            <li>World Peace Organization, New York, USA — 2015</li>
+            <li>Nuclear-Weapon-Free Peaceful World, Hiroshima, Japan — 2016</li>
+            <li>Climate Change Conference, Hong Kong</li>
+            <li>Conflict Management Workshop, Singapore</li>
+            <li>Human Rights Promotion, Malaysia</li>
+            <li>Herbal Conference, China</li>
+            <li>Visit to London, UK</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── TRAINING ── -->
+  <section class="section alt-bg" id="training">
+    <div class="container">
+      <div class="section-label">Professional Development</div>
+      <h2 class="section-title">Training &amp; Workshops</h2>
+      <div class="training-grid">
+        <div class="training-item" data-animate>
+          <div class="t-icon">&#128218;</div>
+          <p>TOT on Gender Sensitization, Monitoring &amp; Evaluation — Organization Development Center &amp; WFP, Kathmandu</p>
+        </div>
+        <div class="training-item" data-animate>
+          <div class="t-icon">&#128218;</div>
+          <p>Community Based Disaster Preparedness — Lutheran World Federation, Damak, Jhapa</p>
+        </div>
+        <div class="training-item" data-animate>
+          <div class="t-icon">&#128218;</div>
+          <p>Team Building Training — NRCS National Headquarters, Kalimati, Kathmandu</p>
+        </div>
+        <div class="training-item" data-animate>
+          <div class="t-icon">&#128218;</div>
+          <p>General Management Training — NRCS &amp; Administrative Staff College, Kathmandu</p>
+        </div>
+        <div class="training-item" data-animate>
+          <div class="t-icon">&#128218;</div>
+          <p>People Oriented Planning (POP) — NRCS, RAP, Damak, Jhapa</p>
+        </div>
+        <div class="training-item" data-animate>
+          <div class="t-icon">&#128218;</div>
+          <p>Clinical Legal Education Program — Tribhuvan University, Faculty of Law, Kathmandu</p>
+        </div>
+      </div>
+
+      <h3 class="sub-title">Facilitation as Resource Person</h3>
+      <div class="resource-list">
+        <span>Fire Fighting Training — NRCS, RAP</span>
+        <span>Organization &amp; Management Training — NRCS, RAP</span>
+        <span>CBDP Training — NRCS, CBD</span>
+        <span>Promoting &amp; Protecting Human Rights</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label">Get In Touch</div>
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="c-icon">&#9993;</div>
+          <h4>Email</h4>
+          <a href="mailto:advthapa@yahoo.com">advthapa@yahoo.com</a>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">&#128222;</div>
+          <h4>Phone</h4>
+          <p>+977-1-4373650<br />9851045590</p>
+        </div>
+        <div class="contact-item">
+          <div class="c-icon">&#127968;</div>
+          <h4>Address</h4>
+          <p>Budhanilkantha Municipality-2,<br />Kathmandu, Nepal</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <p>&copy; 2024 Jayaram Thapa. All rights reserved.</p>
+    <p class="footer-sub">Advocate &bull; Legal Scholar &bull; Deputy Chairman, Kathmandu</p>
+  </footer>
+
+  <button class="top-button" id="topButton" aria-label="Scroll to top">↑</button>
+  <script src="script.js"></script>
 </body>
 </html>
-esheet"/>
